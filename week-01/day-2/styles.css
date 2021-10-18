@@ -1,0 +1,100 @@
+#navbar {
+  width: 100%;
+  background-color: #333;
+  overflow: auto;
+  text-align: center;
+  padding-left: 10%;
+}
+
+nav {
+  padding-right: 18%;
+}
+
+#linkek {
+  padding-right: 10%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  align-items: center;
+}
+
+a {
+  display: block;
+  float: right;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #ff0099;
+}
+
+img {
+  float: left;
+  background-color: #333;
+  text-align: center;
+  padding: 10px ;10px;
+}
+
+a:hover {
+  background-color: #111;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 50px;
+  color: black;
+}
+
+h2 {
+  color: #cf7070;
+  margin-top: 30px;
+  padding-left: 0px;
+}
+
+body {
+  font-family: consolas, "Roboto";
+  /*font-size: 16px;
+    font-weight: normal;*/
+  font: normal 16px "Roboto";
+  padding-left: 0%;
+  padding-right: 0%;
+  line-height: 1.7em;
+  background-image: url(assets/topography.png);
+  height: 300%;
+}
+
+#teszt {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#alcim {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.separ p {
+  text-align: center;
+  font-size: 40px;
+}
+
+.techno {
+  text-align: center;
+  font-size: 40px;
+}
+
+#alcim h3 {
+  color: #ff0099;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #ff0099;
+  color: white;
+  
+}
