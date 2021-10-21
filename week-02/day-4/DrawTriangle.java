@@ -21,16 +21,17 @@ public class DrawTriangle {
         System.out.print("Adj meg egy számot: ");
         lineCount = scanner.nextInt();
 
-        int i, j;
+        int sor, oszlop;
 
-        for (i = 0; i < lineCount; i++) {
+        for (sor = 0; sor < lineCount; sor++) {
 
-            for (j = 0; j <= i; j++) {
+            for (oszlop = 0; oszlop <= sor; oszlop++) {
 
                 System.out.print("* ");
             }
 
             System.out.println();
         }
+
     }
 }
