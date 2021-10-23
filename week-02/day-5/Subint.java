@@ -24,7 +24,7 @@ public class Subint {
 
     public static void subint(int number, int[] intArray) {
         for (int i = 0; i < intArray.length; i++) {
-            
+
             while (intArray[i] > 0) {
 
                 if (intArray[i] % 10 == number) {
@@ -39,13 +39,3 @@ public class Subint {
         }
     }
 }
-
-/*
- while (x > 0)
-        {
-            if (x % 10 == d)
-                break;
-
-            x = x / 10;
-        }
- */
